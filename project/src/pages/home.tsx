@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import '../styles/home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import Avatar from '../images/avatartion.png'
+import Avatar from '../images/avatar.png'
 
 function Home() {
     return (
@@ -35,6 +35,9 @@ function Home() {
             <img className = "avatar" src = { Avatar } alt = "image"></img>
           </div>
         </div>
+        <a href = '#projects' className = "arrow-link">
+          <FontAwesomeIcon icon={faAngleDown} className = "arrow"/>
+        </a>
       </>
     );
   }

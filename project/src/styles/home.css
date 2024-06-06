@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    background-color: rgb(253, 253, 253);
+}
+
+.logo {
+    background-color: transparent;
+}
 
 .home {
     margin-left: 200px;
@@ -9,7 +17,7 @@
 
 .home * {
     font-weight: 300;
-    font-family: 'Poppins';
+    font-family: 'Sora';
 }
 
 .intro {
@@ -21,9 +29,9 @@
 .body {
     font-size: 20px;
     color: #6E6E7F;
-    width: 80%;
     margin-top: 30px;
     line-height: 2.5;
+    width: 93%;
 }
 
 .home-links {
@@ -53,12 +61,21 @@
     font-weight: 600;
 }
 
-.home-img {
-    display: flex;
-    align-items: center;
+.avatar {
+    height: 325px;
+    width: auto;
+    margin-left: 50px;
 }
 
-.avatar {
-    height: 300px;
-    width: auto;
+.arrow {
+    font-size: 35px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow-link {
+    display: flex;
+    flex-direction: center;
+    margin-top: 100px;
 }
