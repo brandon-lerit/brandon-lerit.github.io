@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-import '../styles/home.css'
+import '../styles/about.css'
 
 function Home() {
     return (
       <>
         < Navbar />
-        <div className = "home">
-          Home
+        <div className = "about">
+          About
         </div>
       </>
     );
