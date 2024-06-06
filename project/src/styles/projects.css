@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+#projects {
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proj-row1, .proj-row2, .proj-row3 {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.proj-row1 img, .proj-row2 img, .proj-row3 img {
+    height: auto;
+    max-width: 100%;
+}
+
+.project {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.project * {
+    background-color: rgb(255, 255, 255);
+    font-family: "Sora";
+    color: #6E6E7F;
+}
+
+.project-title {
+    color: #2b2b30;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.project div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lang-word {
+    font-size: 18px;
+    color: black;
+}

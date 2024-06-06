@@ -2,9 +2,11 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import '../styles/home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faAngleDown, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import Avatar from '../images/avatar.png'
+import Avatar from '../images/avatars.png'
+import Projects from '../components/projects'
+import Footer from '../components/footer'
 
 function Home() {
     return (
@@ -22,13 +24,13 @@ function Home() {
             </p>
 
             <p className = "body">
-              Currently a Developer for <span className="blueword">Hack4Impact</span> & a Software Engineer Intern for the <span className="strong">Cornell SC Johnson School of Business.</span>
+              Currently Developer for <span className="blueword">Hack4Impact</span> & Software Engineer Intern for the <span className="strong">Cornell SC Johnson School of Business.</span>
             </p>
 
             <div className = "home-links">
-              <a href="mailto:bsl77@cornell.edu" target="_blank"><FontAwesomeIcon icon={faEnvelope} className = "home-icon"/></a>
-              <a href="https://www.linkedin.com/in/brandonlerit/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className = "home-icon"/></a>
-              <a href="https://github.com/brandon-lerit" target="_blank"><FontAwesomeIcon icon={faGithub} className = "home-icon"/></a>
+              <a href="mailto:bsl77@cornell.edu" target="_blank"><FontAwesomeIcon icon={faEnvelope} className = "gmail"/></a>
+              <a href="https://www.linkedin.com/in/brandonlerit/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className = "linkedin"/></a>
+              <a href="https://github.com/brandon-lerit" target="_blank"><FontAwesomeIcon icon={faGithub} className = "github"/></a>
             </div>
           </div>
           <div className = "home-img">
@@ -36,8 +38,12 @@ function Home() {
           </div>
         </div>
         <a href = '#projects' className = "arrow-link">
-          <FontAwesomeIcon icon={faAngleDown} className = "arrow"/>
+          <FontAwesomeIcon icon={faArrowDown} className = "arrow"/>
+          <p className = "arrow-text">Selected Work</p>
+          <FontAwesomeIcon icon={faArrowDown} className = "arrow"/>
         </a>
+        < Projects />
+        < Footer />
       </>
     );
   }
