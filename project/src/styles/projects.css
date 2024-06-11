@@ -1,49 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 #projects {
-    margin-left: 175px;
-    margin-right: 175px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
     margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.proj-row1, .proj-row2, .proj-row3 {
-    display: flex;
-    gap: 25px;
-    margin-bottom: 30px;
-}
-
-.proj-row1 img, .proj-row2 img, .proj-row3 img {
-    height: auto;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.proj1, .proj2, .proj3, .proj4,.proj5, .proj6 {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.proj1 img, .proj2 img, .proj3 img, .proj4 img, .proj5 img, .proj6 img {
+    max-width: 60%;
+    height: auto;
+    object-fit: cover;
 }
 
 .project {
-    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    width: auto;
 }
 
 .project * {
-    background-color: rgb(255, 255, 255);
     font-family: "Sora";
     color: #6E6E7F;
-}
-
-.project-title {
-    color: #2b2b30;
-    font-weight: 600;
-    font-size: 20px;
 }
 
 .project div {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.lang-word {
-    font-size: 18px;
-    color: black;
+.project-title {
+    color: #2b2b30;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-origin {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #2b2b30;
+}
+
+.github-button {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    gap: 10px;
+    border-radius: 30px;
+    background-color: rgb(84, 129, 226);
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.giticon {
+    color: white;
+    background-color: rgb(84, 129, 226);
 }
