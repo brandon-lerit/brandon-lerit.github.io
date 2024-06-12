@@ -19,8 +19,9 @@ function Home() {
             </p>
 
             <p className = "body">
-              I'm a<span className="blueword"> Software Developer</span> and student at 
-              <span className="redword"> Cornell University</span> with a passion for creating
+              I'm an aspiring<span className="purpleword"> Software Engineer</span> and student at 
+              <span className="redword"> Cornell University</span> with a passion for 
+              <span className="italic"> designing</span>and <span className="italic"> developing</span> 
               intuitive and impactful applications.
             </p>
 

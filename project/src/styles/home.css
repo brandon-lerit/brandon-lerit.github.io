@@ -13,8 +13,9 @@ html {
 }
 
 .home {
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 75px;
     display: flex;
 }
@@ -41,7 +42,7 @@ html {
 
 .body {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     color: #2b2b30;
     line-height: 2;
     width: 92%;
@@ -80,9 +81,10 @@ html {
     font-weight: 600;
 }
 
-.blueword {
-    color: rgb(84, 129, 226);
-    font-weight: 600;
+.italic {
+    font-style: italic;
+    font-weight: 500;
+    margin-right: .7rem;
 }
 
 .purpleword {
