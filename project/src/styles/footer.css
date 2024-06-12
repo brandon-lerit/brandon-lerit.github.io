@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 #footer {
-    /* margin: 50px;
-    border-top: 2px solid #9d9dac; */
-    padding-top: 25px;
+    margin: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid #bfbfc9; 
+    /* padding-top: 25px;
     padding-bottom: 25px;
-    background-color: rgb(230, 230, 230);
-}
-
-#footer * {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(230, 230, 230); */
 }
 
 .footer-box img {
@@ -54,12 +52,12 @@
 }
 
 .gmail-f {
-    color: #EA4335;
+    color: black;
     font-size: 40px;
 }
 
 .linkedin-f {
-    color: #0A66C2;
+    color: black;
     font-size: 40px;
 }
 

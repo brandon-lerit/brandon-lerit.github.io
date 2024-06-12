@@ -18,18 +18,18 @@
 .proj1, .proj2, .proj3, .proj4, .proj5 {
     display: flex;
     gap: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .proj-img {
-    width: 550px;
+    width: 500px;
     border-radius: 10px;
     transition: scale 1s ease;
     box-shadow: 2px 2px 1px rgb(216, 216, 216);
 }
 
 .proj-img:hover {
-    scale: 1.05;
+    scale: .95;
     cursor: pointer;
 }
 

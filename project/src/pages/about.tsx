@@ -7,9 +7,9 @@ function Home() {
     return (
       <>
         < Navbar />
-        <div className = "about">
-          About
-        </div>
+          <div className = "about">
+            <h2 className = "project-head fade-in">About Me</h2>
+          </div>
         < Footer />
       </>
     );

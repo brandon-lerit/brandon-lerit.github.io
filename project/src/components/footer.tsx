@@ -4,10 +4,17 @@ import Avatar from '../images/avatar.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { motion } from 'framer-motion';
 
 function Footer() {
     return (
-        <div id = "footer">
+        <motion.div 
+            id = "footer"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+            viewport={{ once: true }}
+        >
             <div className="footer-box">
                 <div className="left-footer">
                     <img src = { Avatar } alt = "avatar"></img>
@@ -24,7 +31,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
   }
   
