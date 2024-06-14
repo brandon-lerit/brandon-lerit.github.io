@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/projects.css'
-import Image from '../images/hackathonblur.png'
 import Lagos from '../images/lagos.png'
 import OCaml from '../images/ocamlutopia.png'
 import ESW from '../images/esw.png'
+import Productivity from '../images/productivity.png'
 import { ReactOriginal, ExpressOriginal, PythonPlain, SqlitePlain, FlaskOriginal, OcamlPlain, FirebaseOriginal, MongodbOriginal } from 'devicons-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
@@ -66,7 +66,7 @@ function Projects() {
                 viewport={{ once: true }}
             >
 
-                <img onClick={() => window.open('https://github.com/brandon-lerit/ProductivityApp', '_blank')} src = { Image } alt = "Productivity App Image" className="proj-img"></img>
+                <img onClick={() => window.open('https://github.com/brandon-lerit/ProductivityApp', '_blank')} src = { Productivity } alt = "Productivity App Image" className="proj-img"></img>
 
                 <div className = "project">
                     <p className="project-origin">Backend Programming, Backend Developer</p>
