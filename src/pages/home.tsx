@@ -57,7 +57,7 @@ function Home() {
           <p className = "arrow-text">See Projects</p>
           <FontAwesomeIcon icon={faArrowDown} className = "arrow"/>
         </a>
-        < Projects />
+        < Projects /> 
         < Footer />
       </>
     );
