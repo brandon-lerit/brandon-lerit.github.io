@@ -88,3 +88,45 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+@media (max-width: 800px) {
+    #projects {
+        width: 320px;
+    }
+
+    .project-head {
+        text-align: center;
+    }
+
+    .proj1, .proj2, .proj3, .proj4 {
+        flex-direction: column;
+    }
+
+    .proj4 {
+        margin-bottom: 50px;
+    }
+
+    .proj-img {
+        width: 320px;
+    }
+
+    .project-origin {
+        font-size: 14px;
+    }
+
+    .project-title {
+        font-size: 20px;
+    }
+
+    .project-description {
+        font-size: 16px;
+    }
+
+    .git-arrow {
+        font-size: 16px;
+    }
+
+    .git-link {
+        font-size: 16px;
+    }
+}

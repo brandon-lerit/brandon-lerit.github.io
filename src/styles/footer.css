@@ -65,3 +65,36 @@
     color: black;
     font-size: 40px;
 }
+
+@media (max-width: 800px) {
+    .footer-box {
+        width: 320px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    #footer {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left-footer {
+        margin-left: auto;
+        gap: 0px;
+    }
+
+    .left-footer p {
+        font-size: 16px;
+    }
+
+    .right-footer {
+        margin-right: auto;
+        padding-top: 0px;
+    }
+
+    .footer-links {
+        gap: 50px;
+        margin-bottom: 10px;
+    }
+}
