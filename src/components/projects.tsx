@@ -93,7 +93,7 @@ function Projects() {
                     <p className="project-origin">Engineers For a Sustainable World, Developer</p>
                     <p className="project-title">Food Waste Solutions</p>
                     <div className="proj-lang"><ReactOriginal size = "22px"/>React<ExpressOriginal size = "22px"/>Express<MongodbOriginal size = "22px"/>MongoDB</div>
-                    <p className="project-description">Created a web-app where Cornell Organizations can post events to distrubute leftover food from events.</p>
+                    <p className="project-description">Created a web-app where Cornell Organizations can post events to distrubute leftover food.</p>
                     <a href="https://github.com/ESW-Software-Dev" target="_blank" className="git-link"><FontAwesomeIcon icon={faArrowRight} className="git-arrow"/> View on Github</a>
                 </div>
 
