@@ -79,5 +79,13 @@
         border-radius: 0px;
         box-shadow: 0 0 0 #efeff2;
         background-color: transparent;
+        padding: 0;
+        width: 300px;
+        height: auto;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
     }
 }
