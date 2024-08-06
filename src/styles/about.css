@@ -7,8 +7,44 @@
 
 .about-img img {
     border-radius: 10px;
-    box-shadow: 0 0 1px #efeff2;
+    box-shadow: 1px 1px 2px #efeff2;
     background-color: rgb(251, 238, 254);
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.about-intro {
+    display: flex;
+}
+
+.about-text {
+    margin-left: 100px;
+}
+
+.about-intro h2 {
+    font-size: 24px;
+    color: #2b2b30;
+    margin-top: 0;
+}
+
+.about-intro p {
+    line-height: 2;
+    font-size: 16px;
+    color: #6E6E7F;
+    margin-bottom: 30px;
+}
+
+.things {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.thing-row1, .thing-row2 {
+    display: flex;
+}
+
+.thing {
+    display: flex;
+    flex-direction: column;
 }

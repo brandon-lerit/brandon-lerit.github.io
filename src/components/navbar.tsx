@@ -20,7 +20,7 @@ function Navbar() {
             </div>
             <div className = "links">
                 <a href = "/#projects" className = "link-text">Projects</a>
-                <Link to="/" className = "link-text">About</Link>
+                <Link to="/about" className = "link-text">About</Link>
                 <a href = "https://drive.google.com/file/d/1pJM_w0ibJRqy2bRzOB1a8GDF2HpTLidg/view?usp=sharing" target="_blank" className = "link-text">
                     Resume
                 </a>
