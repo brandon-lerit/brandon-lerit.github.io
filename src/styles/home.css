@@ -33,10 +33,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.logo {
-    background-color: transparent;
-}
-
 .home {
     width: 1100px;
     margin-left: auto;

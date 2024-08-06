@@ -11,6 +11,8 @@
     background-color: rgb(251, 238, 254);
     padding-top: 30px;
     padding-bottom: 30px;
+    height: 300px;
+    width: auto;
 }
 
 .about-intro {
