@@ -4,7 +4,8 @@ import Lagos from '../images/lagos.png'
 import OCaml from '../images/ocamlutopia.png'
 import ESW from '../images/esw.png'
 import Productivity from '../images/productivity.png'
-import { ReactOriginal, ExpressOriginal, PythonPlain, SqlitePlain, FlaskOriginal, OcamlPlain, FirebaseOriginal, MongodbOriginal } from 'devicons-react';
+import Recovery from '../images/recovery.png'
+import { ReactOriginal, ExpressOriginal, PythonPlain, SqlitePlain, FlaskOriginal, OcamlPlain, FirebaseOriginal, MongodbOriginal, NextjsOriginal } from 'devicons-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { motion, useAnimation } from 'framer-motion';
@@ -15,6 +16,28 @@ function Projects() {
     return (
         <div id = "projects">
             <h2 className="project-head fade-in">Projects</h2>
+
+            <motion.div 
+                className = "proj5"
+                initial={{ y: 50, opacity: 0 }}
+                animate={controls}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{duration: 2}}
+                viewport={{ once: true }}
+            >
+
+                <img onClick={() => window.open('https://github.com/cornellh4i/ithaca-recovery', '_blank')} src = { Recovery } alt = "Ithaca Community Recovery Image" className="proj-img"></img>
+
+                <div className = "project">
+                    <p className="project-origin">Hack4Impact, Full-Stack Developer</p>
+                    <p className="project-title">Ithaca Community Recovery</p>
+                    <div className="proj-lang"><ReactOriginal size = "22px"/>React<NextjsOriginal size = "22px"/>Next.js<MongodbOriginal size = "22px"/>MongoDB</div>
+                    <p className="project-description">Created an event and meeting platform for Ithaca Community Recovery.</p>
+                    <a href="https://github.com/cornellh4i/ithaca-recovery" target="_blank" className="git-link"><FontAwesomeIcon icon={faArrowRight} className="git-arrow"/> View on Github</a>
+                </div>
+
+            </motion.div>
+
             <motion.div 
                 className = "proj1"
                 initial={{ y: 50, opacity: 0 }}

@@ -31,7 +31,7 @@ function Navbar() {
                 </div>
                 <a href="/#projects" className="link-text" onClick={toggleMenu}>Projects</a>
                 <Link to="/about" className="link-text" onClick={toggleMenu}>About</Link>
-                <a href="https://drive.google.com/file/d/1cdpdckcgDuCb_fZTUGZWvrdLr0lWWUk7/view?usp=sharing" target="_blank" className="link-text" onClick={toggleMenu}>Resume</a>
+                <a href="https://drive.google.com/file/d/19Aqu4ygBqqP4ye_8QRAIdiIPxb4OiznV/view?usp=drive_link" target="_blank" className="link-text" onClick={toggleMenu}>Resume</a>
             </div>
         </div>
     );
