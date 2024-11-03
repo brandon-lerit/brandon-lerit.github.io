@@ -18,7 +18,7 @@ function Projects() {
             <h2 className="project-head fade-in">Projects</h2>
 
             <motion.div 
-                className = "proj5"
+                className = "proj1"
                 initial={{ y: 50, opacity: 0 }}
                 animate={controls}
                 whileInView={{ y: 0, opacity: 1 }}
