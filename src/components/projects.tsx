@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/projects.css'
 import Lagos from '../images/lagos.png'
 import OCaml from '../images/ocamlutopia.png'
-import ESW from '../images/esw.png'
+// import ESW from '../images/esw.png'
 import Productivity from '../images/productivity.png'
 import Recovery from '../images/recovery.png'
 import { ReactOriginal, ExpressOriginal, PythonPlain, SqlitePlain, FlaskOriginal, OcamlPlain, FirebaseOriginal, MongodbOriginal, NextjsOriginal } from 'devicons-react';
@@ -101,7 +101,7 @@ function Projects() {
                 
             </motion.div>
 
-            <motion.div 
+            {/* <motion.div 
                 className = "proj4"
                 initial={{ y: 50, opacity: 0 }}
                 animate={controls}
@@ -120,7 +120,7 @@ function Projects() {
                     <a href="https://github.com/ESW-Software-Dev" target="_blank" className="git-link"><FontAwesomeIcon icon={faArrowRight} className="git-arrow"/> View on Github</a>
                 </div>
 
-            </motion.div>
+            </motion.div> */}
 
         </div>
     );

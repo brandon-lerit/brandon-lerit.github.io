@@ -27,7 +27,7 @@ function Footer() {
                         <a href="https://github.com/brandon-lerit" target="_blank"><FontAwesomeIcon icon={faGithub} className = "github-f"/></a>
                     </div>
                     <div className="copyright">
-                        <p>© 2024 Brandon Lerit</p>
+                        <p>© 2025 Brandon Lerit</p>
                     </div>
                 </div>
             </div>
