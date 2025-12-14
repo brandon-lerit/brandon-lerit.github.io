@@ -35,7 +35,7 @@ function Home() {
           <div className="home-container fade-in">
             <div className="home-text">
               <p className = "intro">
-                Hi, I'm Brandon! <FontAwesomeIcon icon={faComputer} className = "title-icon" />
+                Hello, I'm Brandon! <FontAwesomeIcon icon={faComputer} className = "title-icon" />
               </p>
 
               <p className = "body">
